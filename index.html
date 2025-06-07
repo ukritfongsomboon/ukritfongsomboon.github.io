@@ -1,13 +1,76 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ukrit's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ukrit Fongsomboon | Dev Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: 'Fira Code', monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    h1, h2 {
+      color: #58a6ff;
+    }
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+    .badges img {
+      margin: 0.5rem;
+    }
+    .section {
+      margin: 2rem 0;
+      text-align: center;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello! 👋</h1>
-  <p>I'm Ukrit Fongsomboon, a backend + DevOps developer.</p>
+
+  <div class="container">
+    <h1>Hi 👋, I'm Ukrit Fongsomboon</h1>
+    <h2>🧑‍💻 Backend & DevOps Engineer</h2>
+
+    <div class="section">
+      <p>🚀 Building scalable APIs with Go + Fiber</p>
+      <p>🛠 Automating infrastructure with Docker, K8s, and Terraform</p>
+      <p>🎯 Focused on CI/CD, Observability, and Clean Architecture</p>
+    </div>
+
+    <div class="section">
+      <h3>⚙️ Tech Stack</h3>
+      <p>Go · Docker · Kubernetes · PostgreSQL · Redis · Kafka · GitHub Actions · AWS</p>
+    </div>
+
+    <div class="section badges">
+      <h3>📊 GitHub Stats</h3>
+      <img src="https://github-readme-stats.vercel.app/api?username=ukritfongsomboon&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ukritfongsomboon&layout=compact&theme=tokyonight" alt="Top Langs" />
+    </div>
+
+    <div class="section">
+      <h3>📫 Connect with me</h3>
+      <p>
+        <a href="mailto:ukrit@example.com">📧 ukrit@example.com</a> ·
+        <a href="https://linkedin.com/in/your-link">🔗 LinkedIn</a> ·
+        <a href="https://github.com/ukritfongsomboon">🐙 GitHub</a>
+      </p>
+    </div>
+
+    <footer class="section">
+      <p><i>“Build with clarity. Deploy with confidence.”</i></p>
+    </footer>
+  </div>
+
 </body>
 </html>
